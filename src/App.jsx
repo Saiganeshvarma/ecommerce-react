@@ -4,6 +4,8 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { Toaster } from 'react-hot-toast'
 
 // This is the main file for the ecommerce
+
+// This is the comment for the git
 import Layout from './components/layout/Layout'
 import { ProtectedRoute, AdminRoute, GuestRoute } from './components/guards/ProtectedRoute'
 import { authAPI } from './api/auth'
