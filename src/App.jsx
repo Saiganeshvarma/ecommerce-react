@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { Toaster } from 'react-hot-toast'
 
+// This is the main file for the ecommerce
 import Layout from './components/layout/Layout'
 import { ProtectedRoute, AdminRoute, GuestRoute } from './components/guards/ProtectedRoute'
 import { authAPI } from './api/auth'
